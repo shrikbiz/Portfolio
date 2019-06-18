@@ -1,0 +1,178 @@
+
+body {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+section{
+    overflow: hidden;
+}
+.container {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+h2{
+    font-family: cursive;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    font-family: fantasy;
+    text-align: justify;
+    
+}
+
+.nav {
+    overflow: hidden;
+    width: 100%;
+    height: 55px;
+    background-color:   b020202;
+    border-bottom: 5px solid #fff;
+}
+
+
+#logo {
+    float: left;
+    height: 100%;
+    /* margin-left: 18%; */
+    padding-bottom: 10px;
+    width: 200px;
+
+}
+
+.menu {
+    color: white;
+    float: right;
+    font-size: 20px;
+    list-style: none;
+    /* margin-left: 60%;
+    padding-top: 15px; */
+    /* margin-right: 20%; */
+    /* margin-left: 20%; */
+}
+
+.menu>li {
+
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+
+header{
+    background-color: black;    
+    background-image: url('../images/max.jpg');
+    background-size: contain;
+
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+.header-title{
+    border: rgba(27, 25, 25, 0.055) solid 1px;
+    border-radius: 5px 5px 0 0;
+    background-color: rgba(1,0,2, 0.7);
+    width: 550px;
+    margin: auto;
+
+
+}
+        
+.name{
+    font-weight: bold;  
+    padding-top: 150px;
+    color:rgba(241, 238, 238, 0.973);
+    text-align: center;
+    font-family: cursive;
+    font-size: 80px;
+
+}
+
+.caption{
+text-align: center;
+margin: 0px auto 0 auto;
+font-family: fantasy;
+font-size: 55px;
+background-color:  rgba(22, 21, 24, 0.863) ;
+width: 552px;
+}
+
+.caption-div{
+    color: rgba(241, 238, 238, 0.973);
+}
+
+.action{
+    height:450px;
+    background-image: linear-gradient(to top,grey ,#010101);
+    width: 100%;
+}
+ 
+.intro{
+    float: left;
+    padding-top: 10px;
+    width: 55%;
+}
+
+
+
+
+
+.intro-button{
+    float: right;
+    padding-top: 180px;
+}
+
+.button{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: #FFF solid 3px;
+    border-radius: 7px;
+    margin-left: 100px;
+
+}
+
+.galary{
+    height: 1000px;
+    background-image: linear-gradient(to top, white, grey);
+}
+
+.galary-section{
+    height:100px;
+}
+
+
+
+.column{
+    height: 400px;
+}
+
+.left-image{
+    float: left;
+    width: 49.5%;   
+}
+
+.right-image{
+
+    width: 49.5%;   
+    float: right;
+
+    
+}
+
+#images{
+    margin: 10% 30% ;
+    display: auto;
+}
+
+.testemony{
+    height: 200px;
+    background-color: rgba(37, 37, 37, 0.336);
+}
+
+
